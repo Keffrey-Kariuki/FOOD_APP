@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/categoryFragment">
+
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="com.example.foodapp.fragments.lists.category.CategoryFragment"
+        android:label="CategoryFragment"
+        tools:layout="@layout/fragment_category">
+        <action
+            android:id="@+id/action_categoryFragment_to_mealCategoryFragment"
+            app:destination="@id/mealCategoryFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mealCategoryFragment"
+        android:name="com.example.foodapp.fragments.lists.meals.meals_cat.MealCategoryFragment"
+        android:label="MealCategoryFragment"
+        tools:layout="@layout/fragment_category_meal">
+        <action
+            android:id="@+id/action_mealCategoryFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="com.example.foodapp.fragments.lists.search.SearchFragment"
+        android:label="SearchFragment"
+        tools:layout="@layout/fragment_search">
+        <action
+            android:id="@+id/action_searchFragment_to_searchDetailsFragment"
+            app:destination="@id/searchDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchDetailsFragment"
+        android:name="com.example.foodapp.fragments.lists.search.SearchDetailsFragment"
+        android:label="SearchDetailsFragment"
+        tools:layout="@layout/fragment_details_search"/>
+    <fragment
+        android:id="@+id/ingredientsFragment"
+        android:name="com.example.foodapp.fragments.lists.ingredient.IngredientsFragment"
+        android:label="IngredientsFragment"
+        tools:layout="@layout/fragment_ingredient">
+        <action
+            android:id="@+id/action_ingredientsFragment_to_mealIngredientFragment"
+            app:destination="@id/mealIngredientFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mealIngredientFragment"
+        android:name="com.example.foodapp.fragments.lists.meals.meals_ing.MealIngredientFragment"
+        android:label="MealIngredientFragment"
+        tools:layout="@layout/fragment_ingredient_meal">
+        <action
+            android:id="@+id/action_mealIngredientFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/areaFragment"
+        android:name="com.example.foodapp.fragments.lists.area.AreaFragment"
+        android:label="AreaFragment"
+        tools:layout="@layout/fragment_area">
+        <action
+            android:id="@+id/action_areaFragment_to_mealAreaFragment"
+            app:destination="@id/mealAreaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mealAreaFragment"
+        android:name="com.example.foodapp.fragments.lists.meals.meals_area.MealAreaFragment"
+        android:label="MealAreaFragment"
+        tools:layout="@layout/fragment_area_meal">
+        <action
+            android:id="@+id/action_mealAreaFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+</navigation>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Bottom Nav View
+    <dimen name="bottom_nav_height">85dp</dimen>
+
+</resources>

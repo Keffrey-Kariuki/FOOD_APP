@@ -3,7 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/activity_main.xml" value="0.10916919959473151" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/fragment_area.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/fragment_area_meal.xml" value="0.2234375" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/fragment_category.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/fragment_category_meal.xml" value="0.16" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/fragment_details_search.xml" value="0.2234375" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/fragment_ingredient_meal.xml" value="0.2234375" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/fragment_ingredients.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/fragment_search.xml" value="0.2234375" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/single_area.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/single_category.xml" value="0.2234375" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/single_ingredient.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/single_meal.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/layout/single_search.xml" value="0.2234375" />
+        <entry key="..\:/Users/PC/AndroidStudioProjects/_FoodApp/app/src/main/res/menu/main_menu.xml" value="0.22447916666666667" />
       </map>
     </option>
   </component>
