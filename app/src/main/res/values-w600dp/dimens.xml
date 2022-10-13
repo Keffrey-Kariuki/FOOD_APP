@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Card View
+    <dimen name="card_margin">10dp</dimen>
+    <dimen name="card_image_height">300dp</dimen>
+    <dimen name="card_corner_radius">10dp</dimen>
+    <dimen name="card_content_padding">8dp</dimen>
+    <dimen name="card_elevation">10dp</dimen>
+    <dimen name="text_to_start_of_card">0dp</dimen>
+    <dimen name="text_to_bottom_of_card">10dp</dimen>
+    <dimen name="text_to_bottom_of_card_for_center">15dp</dimen>
+
+    //Details
+    <dimen name="search_details_name_to_bottom">350dp</dimen>
+    <dimen name="search_details_name_to_start">0dp</dimen>
+    <dimen name="search_details_inst_to_start">0dp</dimen>
+    <dimen name="search_details_inst_to_end">0dp</dimen>
+    <dimen name="view_height">390dp</dimen>
+    <dimen name="search_details_inst_to_top">10dp</dimen>
+
+    //Text View
+    <dimen name="text_title">28sp</dimen>
+    <dimen name="text_subTitle">25sp</dimen>
+    <dimen name="normal_text">22sp</dimen>
+
+
+</resources>

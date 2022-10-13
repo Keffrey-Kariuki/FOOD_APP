@@ -22,4 +22,7 @@ interface MealDao {
     @Query("SELECT * FROM meal_table WHERE ing =:ingFilter")
     fun getMealByIngredientFromDB(ingFilter : String) : LiveData<List<MealModel>>
 
+    @Query("DELETE FROM meal_table")
+    suspend fun deleteMealsFromDB()
+
 }

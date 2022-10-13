@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FOOD APP</string>
+
+    <string name="category">KATEGORIA</string>
+    <string name="search">TAFUTA</string>
+    <string name="ingredients">VIUNGO</string>
+    <string name="areas">MAENEO</string>
+</resources>

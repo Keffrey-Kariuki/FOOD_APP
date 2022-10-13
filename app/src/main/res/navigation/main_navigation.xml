@@ -12,7 +12,8 @@
         tools:layout="@layout/fragment_category">
         <action
             android:id="@+id/action_categoryFragment_to_mealCategoryFragment"
-            app:destination="@id/mealCategoryFragment" />
+            app:destination="@id/mealCategoryFragment"
+            app:enterAnim="@anim/from_left" />
     </fragment>
     <fragment
         android:id="@+id/mealCategoryFragment"
@@ -30,7 +31,9 @@
         tools:layout="@layout/fragment_search">
         <action
             android:id="@+id/action_searchFragment_to_searchDetailsFragment"
-            app:destination="@id/searchDetailsFragment" />
+            app:destination="@id/searchDetailsFragment"
+            app:enterAnim="@anim/come_from_right"
+            app:exitAnim="@anim/come_from_right" />
     </fragment>
     <fragment
         android:id="@+id/searchDetailsFragment"
@@ -44,7 +47,8 @@
         tools:layout="@layout/fragment_ingredient">
         <action
             android:id="@+id/action_ingredientsFragment_to_mealIngredientFragment"
-            app:destination="@id/mealIngredientFragment" />
+            app:destination="@id/mealIngredientFragment"
+            app:enterAnim="@anim/from_left" />
     </fragment>
     <fragment
         android:id="@+id/mealIngredientFragment"
@@ -62,7 +66,8 @@
         tools:layout="@layout/fragment_area">
         <action
             android:id="@+id/action_areaFragment_to_mealAreaFragment"
-            app:destination="@id/mealAreaFragment" />
+            app:destination="@id/mealAreaFragment"
+            app:enterAnim="@anim/from_left" />
     </fragment>
     <fragment
         android:id="@+id/mealAreaFragment"

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    //Card
+    <style name="cardStyle" parent="Widget.Material3.CardView.Elevated">
+        <item name="android:layout_margin">@dimen/card_margin</item>
+        <item name="android:layout_height">@dimen/card_image_height</item>
+        <item name="cardCornerRadius">@dimen/card_corner_radius</item>
+        <item name="contentPadding">@dimen/card_content_padding</item>
+        <item name="cardElevation">@dimen/card_elevation</item>
+    </style>
+
+    //Text
+    <style name="textTitle" parent="TextAppearance.AppCompat.Large">
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="textSubTitle" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">@dimen/text_subTitle</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="normalText" parent="TextAppearance.AppCompat.Body2">
+        <item name="android:textSize">@dimen/normal_text</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+</resources>
