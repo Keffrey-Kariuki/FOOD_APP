@@ -12,9 +12,9 @@ The application implemented the following:
 Architecture - MVVM
 
 ## Screenshots
-            MEALS              |           INSTRUCTIONS               |
--------------------------------|--------------------------------------|
-<img src ="screens/Meals2.png"/>| <img src="screens/Instructions2.png"/>|
+MEALS | INSTRUCTIONS |
+----- | ------------ |
+<img src ="screens/Meals2.png"/> | <img src="screens/Instructions2.png"/> |
 
 ## LICENSE
 This project is distributed under Apache License 2.0
